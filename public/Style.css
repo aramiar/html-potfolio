@@ -1,0 +1,71 @@
+body {transform: scale(.8); transform-origin: 0 0;}
+#tableDiv0 {margin-left: 0px; margin-right: 0px; width: 45%; background-color: rgba(63,85,142,1.00); float: left}
+#tableDiv1 {margin-left: 0px; margin-right: 0px; width: 50%; float: right}
+.button {display: inline-block; font-size: 1vw; cursor: pointer; text-align: center; text-decoration: none; outline: none; color: #fff; background-color: black; border: none; border-radius: 0.2vw; box-shadow: 0.15vw .15vw #999;}
+.button1{padding: .4vw .7vw;}
+.button2{padding: .4vw .4vw;}
+.OutButton {font-weight:bold; color:white; font-style:italic; width: 2.4vw; height:2.4vw; display: inline-block; font-size: .6vw; cursor: pointer; text-align: center; text-decoration: none; outline: none; border: none; border-radius: 0.2vw; box-shadow: 0.15vw .15vw #999; padding: .4vw .1vw;}
+.button:active {background-color: black;  box-shadow: 0.1vw 0.1vw #666; transform: translateY(.2vw);}
+.Number1 {text-align: right;font-size: 1.8vw; margin:-.6vw; color: Blue; font-weight: bold;border: none; width: 6.5vw; background-color:transparent;outline: none;}
+.Number2 {text-align: right;font-size: 1.2vw; color: Blue; font-weight: bold;border: none; width: 3.8vw; background-color:transparent;outline: none;}
+.Number3 {text-align: right;font-size: 1vw; color: Blue; font-weight: bold;border: none; width: 2.8vw; background-color:transparent;outline: none;}
+.DirClass {text-align: right;font-size: 1vw; color: Blue; font-weight: bold;border: none; width: 6vw; background-color:transparent;outline: none;}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+.Table0 {border: none; width: 120%; table-layout : fixed; border-collapse: collapse; float: left;}
+
+.Table1 {border: 1px solid black; width: 42%; table-layout : fixed; float: right;}
+.Table1 td#67PPT  {font-size: 0.8vw; line-height: 1.4vw; color: Blue; font-weight: bold; padding: 0;}
+.Table1 td{border: 1px solid black; font-family: sans-serif, Arial, Helvetica; font-size: .95vw; text-align: center; background-color: white;}
+.Table1 td#BaslerPic {border:none; padding: 0px;}
+.Table1 td#Parent_P67P {margin: -10px; padding: 0px; border-bottom: -2px solid black;}
+.Table1 td#Parent_N67P {margin: -10px; padding: 0px; border-bottom: -2px solid black;}
+.Table1 td#Parent_N67N {margin: -10px; padding: 0px; border-bottom: -2px solid black;}
+.Table1 td#Parent_Z67N {margin: -10px; padding: 0px; border-bottom: -2px solid black;}
+.Table1 .RelayInput {font-size: 1vw; line-height: 1.1vw; color: Blue; font-weight: bold; padding: 0;}
+
+.Table0 td{border: 1px solid grey; font-family: sans-serif, Arial, Helvetica; font-size: .9vw; text-align: center; background-color: white;}
+.Table0 td#VaColor {background-color:red;}
+.Table0 td#VbColor {background-color:black;}
+.Table0 td#VcColor {background-color:blue;}
+.Table0 td#IaColor {background-color:red;}
+.Table0 td#IbColor {background-color:black;}
+.Table0 td#IcColor {background-color:blue;}
+.Table0 td#ParentPhCanvas {margin: -10px; padding: 0px; border-bottom: 2px solid black;}
+.Table0 td#MantaPic {border:none; background-color: rgba(63,85,142,1.00);}
+.Table0 td#FTsPic {border:none; border-top: 2px solid rgba(63,85,142,1.00); padding: 0px;}
+.Table0 td#MantaModel {color:white; font-style:italic; font-size: 1.9vw; line-height: 5vw; border:none; background-color: rgba(63,85,142,1.00);}
+.Table0 .FaultType {font-size: 0.8vw; background-color:#CBCBCB; border: 2px solid black; }
+.Table0 .InVI    {font-size: 1.8vw; line-height: 1.4vw; color: Blue; font-weight: bold; padding: 0;}
+.Table0 .InVI2   {font-size: 1.2vw; color: darkgrey; font-weight: bold; text-align: right; padding: 0;}
+.Table0 .VIF     {font-size: 0.7vw;}
+.Table0 .Inputs  {font-size: 0.6vw; line-height: 3vw; padding: 0px; border:none; border-bottom: 2px solid black; color:grey;}
+.Table0 .Head    {background-color: black; color: white; padding: .3vw;}
+.Table0 .Status  {font-size: 0.9vw; text-align: left; color:rgba(16,216,39,1.00); font-weight: bold;}
+.Table0 .noborder{border: 10px solid rgba(63,85,142,1.00); border-right:none; border-left:none; background-color: rgba(63,85,142,1.00);}
+.Table0 .display {color:grey; text-align: right}
+.Table0 .FKey1 {color:black; border-bottom: none; border-top: 2px solid rgba(63,85,142,1.00); border-left: none; border-right: none; background-color: rgba(63,85,142,1.00); text-align: center;}
+.Table0 .FKey2 {color:white; font-style:italic; font-weight: 500; text-align: right; display:inline; background-color:black; padding: 9px;}
+.Table0 .FKey22{color:white; font-style:italic; font-weight: 500; text-align: right; display:inline; background-color:black; padding: 9px; padding-left: 3.5px;padding-right: 3.5px;}
+canvas{align: center}
+.blink_text {
+    animation:1s blinker linear infinite;
+    -webkit-animation:2s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+     color: red;
+}
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+/*@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}*/
